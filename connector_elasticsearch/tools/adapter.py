@@ -14,6 +14,17 @@ _logger = logging.getLogger(__name__)
 _lt = LazyTranslate(__name__, default_lang="en_US")
 
 
+# elasticsearch<=7.13.4 still accesses np.float_, which was removed
+# in NumPy 2. Keep the compatibility alias local to the import path until
+# the connector can move to a newer Elasticsearch Python client.
+try:
+    import numpy as np
+except ImportError:
+    np = None
+else:
+    if not hasattr(np, "float_"):
+        np.float_ = np.float64
+
 try:
     import elasticsearch
     import elasticsearch.helpers
