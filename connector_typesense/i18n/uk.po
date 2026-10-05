@@ -47,3 +47,23 @@ msgstr "Хост Typesense"
 #: model:ir.model.fields,field_description:connector_typesense.field_se_backend__ts_server_port
 msgid "Typesense port"
 msgstr "Порт Typesense"
+
+#. module: connector_typesense
+#: model:ir.model.fields,field_description:connector_typesense.field_se_backend__x_backend_type_env_default
+msgid "Type Env Default"
+msgstr "Тип середовища за замовчуванням"
+
+#. module: connector_typesense
+#: model_terms:ir.ui.view,arch_db:connector_typesense.se_backend_form_view
+msgid "Typesense API Key"
+msgstr "Ключ API Typesense"
+
+#. module: connector_typesense
+#: model:ir.model.fields,field_description:connector_typesense.field_se_backend__ts_server_protocol
+msgid "Typesense protocol"
+msgstr "Протокол Typesense"
+
+#. module: connector_typesense
+#: model:ir.model.fields,field_description:connector_typesense.field_se_backend__ts_server_timeout
+msgid "Typesense server timeout"
+msgstr "Тайм-аут сервера Typesense"

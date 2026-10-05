@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model,name:search_engine_serializer_pydantic.model_se_index
 msgid "Se Index"
 msgstr "Індекс SE"
+
+#. module: search_engine_serializer_pydantic
+#: model:ir.model.fields,field_description:search_engine_serializer_pydantic.field_se_index__is_pydantic_serializer
+msgid "Is a Serializer based on Pydantic Model?"
+msgstr "Є серіалізатором на основі моделі Pydantic?"
+
+#. module: search_engine_serializer_pydantic
+#: model:ir.model.fields,field_description:search_engine_serializer_pydantic.field_se_index__record_json_schema_str
+msgid "JSON Schema of a record stored in this index"
+msgstr "JSON Schema запису, збереженого в цьому індексі"
+
+#. module: search_engine_serializer_pydantic
+#: model:ir.model.fields,field_description:search_engine_serializer_pydantic.field_se_index__record_json_schema
+msgid "JSON Schema of a record stored in this index (as dict)"
+msgstr "JSON Schema запису в цьому індексі (як словник)"

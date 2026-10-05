@@ -73,3 +73,28 @@ msgstr "Максимум повторних спроб"
 #: model_terms:ir.ui.view,arch_db:connector_elasticsearch.se_backend_form_view
 msgid "Timeout"
 msgstr "Тайм-аут"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,field_description:connector_elasticsearch.field_se_backend__es_server_host
+msgid "ElasticSearch host"
+msgstr "Хост Elasticsearch"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,field_description:connector_elasticsearch.field_se_backend__es_max_retries
+msgid "Elasticsearch max retries"
+msgstr "Максимальна кількість повторів Elasticsearch"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,field_description:connector_elasticsearch.field_se_backend__es_retry_on_timeout
+msgid "Elasticsearch retry on timeout"
+msgstr "Elasticsearch: повторювати при тайм-ауті"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,field_description:connector_elasticsearch.field_se_backend__es_timeout
+msgid "Elasticsearch timeout"
+msgstr "Тайм-аут Elasticsearch"
+
+#. module: connector_elasticsearch
+#: model_terms:ir.ui.view,arch_db:connector_elasticsearch.se_backend_form_view
+msgid "Retry on timeout"
+msgstr "Повторити при тайм-ауті"

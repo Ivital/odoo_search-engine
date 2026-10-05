@@ -175,3 +175,32 @@ msgstr "Бекенд пошукової системи"
 #: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__base_name
 msgid "The base name of the thumbnail image (without extension)"
 msgstr "Базова назва зображення мініатюри (без розширення)"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,help:search_engine_image_thumbnail.field_se_thumbnail__attachment_id
+msgid "Attachment containing the original image"
+msgstr "Вкладення, що містить оригінальне зображення"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__field_id_domain
+msgid "Domain to select images field"
+msgstr "Домен для вибору поля зображень"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_backend__fails_if_no_thumbail_size
+msgid "Fail if no thumbnail size"
+msgstr "Помилка, якщо розмір мініатюри не задано"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__field_name
+msgid "Images field name"
+msgstr "Назва поля зображень"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,help:search_engine_image_thumbnail.field_se_thumbnail__base_name
+msgid ""
+"The thumbnail image will be named as base_name + _ + size_x + _ + size_y + . + extension.\n"
+"If not set, the base name will be the name of the original image.This base name is used to find all existing thumbnail of an image generated for the same base name."
+msgstr ""
+"Мініатюра зображення матиме назву base_name + _ + size_x + _ + size_y + . + extension.\n"
+"Якщо не задано, базовою назвою буде назва оригінального зображення. Ця базова назва використовується для пошуку всіх наявних мініатюр зображення, створених із тією самою базовою назвою."

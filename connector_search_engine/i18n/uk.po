@@ -443,3 +443,149 @@ msgstr "До перерахунку"
 #: model:ir.actions.act_window,name:connector_search_engine.action_record_bind
 msgid "Update state"
 msgstr "Оновити стан"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_backend_form_view
+msgid ""
+"<span class=\"o_stat_text\" invisible=\"binding_count &lt; 2\"> Bindings</span>\n"
+"                                <span class=\"o_stat_text\" invisible=\"binding_count &gt; 1\"> Binding</span>"
+msgstr ""
+"<span class=\"o_stat_text\" invisible=\"binding_count &lt; 2\"> Прив’язки</span>\n"
+"                                <span class=\"o_stat_text\" invisible=\"binding_count &gt; 1\"> Прив’язка</span>"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+msgid ""
+"<span class=\"o_stat_text\" invisible=\"count_all &lt; 2\"> Bindings</span>\n"
+"                                <span class=\"o_stat_text\" invisible=\"count_all &gt; 1\"> Binding</span>"
+msgstr ""
+"<span class=\"o_stat_text\" invisible=\"count_all &lt; 2\"> Прив’язки</span>\n"
+"                                <span class=\"o_stat_text\" invisible=\"count_all &gt; 1\"> Прив’язка</span>"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__batch_exporting_size
+msgid "Batch Exporting Size"
+msgstr "Розмір пакетного експорту"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__batch_recomputing_size
+msgid "Batch Recomputing Size"
+msgstr "Розмір пакетного перерахунку"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_indexable_record__count_se_binding_done
+msgid "Count Se Binding Done"
+msgstr "Кількість виконаних прив’язок SE"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_indexable_record__count_se_binding_error
+msgid "Count Se Binding Error"
+msgstr "Кількість помилок прив’язки SE"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_indexable_record__count_se_binding_pending
+msgid "Count Se Binding Pending"
+msgstr "Кількість прив’язок SE в очікуванні"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_indexable_record__count_se_binding_total
+msgid "Count Se Binding Total"
+msgstr "Загальна кількість прив’язок SE"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__date_synchronized
+msgid "Date Synchronized"
+msgstr "Дата синхронізації"
+
+#. module: connector_search_engine
+#: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__recompute_error
+msgid "Fail to Recompute"
+msgstr "Не вдалося перерахувати"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_index_config__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_index_config__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__index_prefix_name
+msgid "Index Prefix Name"
+msgstr "Префікс назви індексу"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_index_config__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_index_config__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: connector_search_engine
+#: model:ir.actions.server,name:connector_search_engine.action_recompute_se_index
+msgid "Recompute Search Index"
+msgstr "Перерахувати пошуковий індекс"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+msgid "Recompute and Export all bindings"
+msgstr "Перерахувати та експортувати всі прив’язки"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Recompute and export all bindings"
+msgstr "Перерахувати та експортувати всі прив’язки"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_state_updater_form_view
+msgid "Se Binding State Updater"
+msgstr "Оновлювач стану прив’язки SE"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_indexable_record__se_binding_ids
+msgid "Seacrh Engine Bindings"
+msgstr "Прив’язки пошукового рушія"
+
+#. module: connector_search_engine
+#: model:ir.actions.server,name:connector_search_engine.ir_cron_export_binding_ir_actions_server
+msgid "Search engine: Generate job for exporting binding per index"
+msgstr "Пошуковий рушій: створити завдання експорту прив’язок за індексом"
+
+#. module: connector_search_engine
+#: model:ir.actions.server,name:connector_search_engine.ir_cron_recompute_binding_ir_actions_server
+msgid ""
+"Search engine: Generate job for recompute binding to recompute per index"
+msgstr ""
+"Пошукова система: створити завдання для перерахунку прив’язки окремо для "
+"кожного індексу"
+
+#. module: connector_search_engine
+#: model:ir.actions.server,name:connector_search_engine.ir_cron_recompute_all_index_ir_actions_server
+msgid "Search engine: recompute all index"
+msgstr "Пошуковий рушій: перерахувати весь індекс"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_backend__tech_name
+msgid "Unique name for technical purposes. Eg: server env keys."
+msgstr "Унікальна назва для технічних цілей. Наприклад: ключі server env."
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Update or initialize index settings"
+msgstr "Оновити або ініціалізувати налаштування індексу"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__x_backend_type_env_is_editable
+msgid "X Backend Type Env Is Editable"
+msgstr "Чи редагується X Backend Type Env"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__x_index_prefix_name_env_is_editable
+msgid "X Index Prefix Name Env Is Editable"
+msgstr "X Index Prefix Name Env доступне для редагування"
