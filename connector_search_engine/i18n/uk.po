@@ -589,3 +589,98 @@ msgstr "Чи редагується X Backend Type Env"
 #: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__x_index_prefix_name_env_is_editable
 msgid "X Index Prefix Name Env Is Editable"
 msgstr "X Index Prefix Name Env доступне для редагування"
+
+#. module: connector_search_engine
+#: model:ir.model.constraint,message:connector_search_engine.constraint_se_binding_item_uniq_per_index
+msgid "A record can only be bind one time per index !"
+msgstr "Запис можна прив’язати до індексу лише один раз!"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_index__batch_exporting_size
+msgid "Batch size for exporting element"
+msgstr "Розмір пакета для експорту елементів"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_index__batch_recomputing_size
+msgid "Batch size for recomputing element"
+msgstr "Розмір пакета для перерахунку елементів"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_backend.py:0
+msgid "Connection Test Succeeded!"
+msgstr "Перевірку з'єднання пройдено успішно!"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_backend.py:0
+msgid "Everything seems properly set up!"
+msgstr "Схоже, усе налаштовано правильно!"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_binding__res_id
+msgid "ID of the target record in the database"
+msgstr "ID цільового запису в базі даних"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_binding__data_display
+msgid "Include this in debug mode to be able to inspect index data."
+msgstr ""
+"Додайте це в режимі налагодження, щоб мати змогу переглядати дані індексу."
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_index__config_id
+msgid "Index configuration record"
+msgstr "Запис конфігурації індексу"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_backend__index_prefix_name
+#: model:ir.model.fields,help:connector_search_engine.field_se_backend__x_index_prefix_name_env_default
+msgid ""
+"Prefix for technical indexes tech name. You could use this to change index "
+"names based on current env."
+msgstr ""
+"Префікс технічної назви індексів. Його можна використати для зміни назв "
+"індексів залежно від поточного середовища."
+
+#. module: connector_search_engine
+#: model:res.groups,name:connector_search_engine.group_connector_search_engine_manager
+msgid "Search Engine Connector Manager"
+msgstr "Менеджер конектора пошукового рушія"
+
+#. module: connector_search_engine
+#: model:res.groups,name:connector_search_engine.group_connector_search_engine_user
+msgid "Search Engine Connector User"
+msgstr "Користувач конектора пошукового рушія"
+
+#. module: connector_search_engine
+#: model:ir.model,name:connector_search_engine.model_se_binding
+msgid "Search Engine Record"
+msgstr "Запис пошукового рушія"
+
+#. module: connector_search_engine
+#: model:ir.model,name:connector_search_engine.model_se_index_config
+msgid "Search engine index configuration"
+msgstr "Конфігурація індексу пошукового рушія"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,help:connector_search_engine.field_se_index__custom_tech_name
+msgid ""
+"Take control of index technical name. The final index name is still computed"
+" and contains in any case: backend index name prefix and language if given. "
+"If no custom name is provided, model's normalized name will be used."
+msgstr ""
+"Дозволяє керувати технічною назвою індексу. Кінцева назва індексу все одно "
+"обчислюється й у будь-якому разі містить префікс назви індексу бекенду та "
+"мову, якщо її задано. Якщо власну назву не вказано, буде використано "
+"нормалізовану назву моделі."
+
+#. module: connector_search_engine
+#: model:ir.model.constraint,message:connector_search_engine.constraint_se_index_name_uniq
+msgid "The index name must be unique per backend."
+msgstr "Назва індексу має бути унікальною для кожного бекенду."
+
+#. module: connector_search_engine
+#: model:ir.model,name:connector_search_engine.model_se_binding_state_updater
+msgid "Update state of SE bindings"
+msgstr "Оновити стан прив’язувань SE"

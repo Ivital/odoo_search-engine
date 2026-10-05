@@ -67,3 +67,8 @@ msgstr "Протокол Typesense"
 #: model:ir.model.fields,field_description:connector_typesense.field_se_backend__ts_server_timeout
 msgid "Typesense server timeout"
 msgstr "Тайм-аут сервера Typesense"
+
+#. module: connector_typesense
+#: model:ir.model.fields,help:connector_typesense.field_se_backend__ts_api_key
+msgid "Typesense Api Key"
+msgstr "API-ключ Typesense"

@@ -98,3 +98,49 @@ msgstr "Тайм-аут Elasticsearch"
 #: model_terms:ir.ui.view,arch_db:connector_elasticsearch.se_backend_form_view
 msgid "Retry on timeout"
 msgstr "Повторити при тайм-ауті"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,help:connector_elasticsearch.field_se_backend__es_timeout
+msgid "Elastic Search request timeout"
+msgstr "Тайм-аут запиту Elasticsearch"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,help:connector_elasticsearch.field_se_backend__api_key
+msgid "Elasticsearch Api Key"
+msgstr "API-ключ Elasticsearch"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,help:connector_elasticsearch.field_se_backend__api_key_id
+msgid "Elasticsearch Api Key ID"
+msgstr "ID API-ключа Elasticsearch"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,help:connector_elasticsearch.field_se_backend__es_retry_on_timeout
+msgid ""
+"If set, retry when a connection timeout occurs. Otherwise, the retries are "
+"only on other errors"
+msgstr ""
+"Якщо задано, повторювати спробу при тайм-ауті з’єднання. Інакше повтори "
+"виконуються лише для інших помилок"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,help:connector_elasticsearch.field_se_backend__es_password
+#: model:ir.model.fields,help:connector_elasticsearch.field_se_backend__es_user
+msgid "Leave blank if not using http authentication."
+msgstr "Залиште порожнім, якщо HTTP-автентифікація не використовується."
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,help:connector_elasticsearch.field_se_backend__es_max_retries
+msgid ""
+"Number of retries, when an error occurs. 0 or negative means no retries and "
+"the exception is raised."
+msgstr ""
+"Кількість повторів у разі помилки. 0 або від’ємне значення означає без "
+"повторів із негайним винятком."
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields,help:connector_elasticsearch.field_se_backend__ssl
+msgid ""
+"Verify SSL certificates. Only set to False in development environments."
+msgstr ""
+"Перевіряти SSL-сертифікати. Встановлюйте False лише в середовищах розробки."

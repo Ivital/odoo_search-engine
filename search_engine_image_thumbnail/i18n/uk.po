@@ -204,3 +204,37 @@ msgid ""
 msgstr ""
 "Мініатюра зображення матиме назву base_name + _ + size_x + _ + size_y + . + extension.\n"
 "Якщо не задано, базовою назвою буде назва оригінального зображення. Ця базова назва використовується для пошуку всіх наявних мініатюр зображення, створених із тією самою базовою назвою."
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.constraint,message:search_engine_image_thumbnail.constraint_se_image_field_thumbnail_size_model_field_unique
+msgid "A thumbnail size already exists for this backend, model and field"
+msgstr "Розмір мініатюри вже існує для цього бекенду, моделі й поля"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,help:search_engine_image_thumbnail.field_se_backend__fails_if_no_thumbail_size
+msgid ""
+"If checked, the export will fail if no thumbnail sizes is found for the "
+"model and field for which thumbnails are requested."
+msgstr ""
+"Якщо позначено, експорт завершиться помилкою, якщо для моделі й поля не "
+"знайдено розмірів мініатюр."
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model,name:search_engine_image_thumbnail.model_se_image_field_thumbnail_size
+msgid "Index Thumbnail Size"
+msgstr "Розмір мініатюри індексу"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model,name:search_engine_image_thumbnail.model_se_indexable_record
+msgid "Mixin that make record indexable in a search engine"
+msgstr "Міксин, що робить запис індексованим у пошуковому рушії"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model,name:search_engine_image_thumbnail.model_se_backend
+msgid "Se Backend"
+msgstr "Бекенд SE"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model,name:search_engine_image_thumbnail.model_se_thumbnail_size
+msgid "Thumbnail Size"
+msgstr "Розмір мініатюри"
