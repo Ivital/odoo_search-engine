@@ -72,3 +72,47 @@ msgstr "Тайм-аут сервера Typesense"
 #: model:ir.model.fields,help:connector_typesense.field_se_backend__ts_api_key
 msgid "Typesense Api Key"
 msgstr "API-ключ Typesense"
+
+#. module: connector_typesense
+#. odoo-python
+#: code:addons/connector_typesense/tools/adapter.py:0
+msgid "Invalid URL - No host supplied"
+msgstr "Недійсний URL — хост не вказано"
+
+#. module: connector_typesense
+#. odoo-python
+#: code:addons/connector_typesense/tools/adapter.py:0
+msgid "Not Found - The requested resource is not found."
+msgstr "Не знайдено — запитаний ресурс не знайдено."
+
+#. module: connector_typesense
+#. odoo-python
+#: code:addons/connector_typesense/tools/adapter.py:0
+msgid ""
+"Reindexing is not needed with TypeSense, as schema can be updated. So you "
+"just need to export the setting after changing them"
+msgstr ""
+"Повторне індексування не потрібне з TypeSense, оскільки схему можна оновити."
+" Після змін достатньо експортувати налаштування"
+
+#. module: connector_typesense
+#. odoo-python
+#: code:addons/connector_typesense/tools/adapter.py:0
+msgid "Unable to connect :"
+msgstr "Не вдалося підключитися:"
+
+#. module: connector_typesense
+#. odoo-python
+#: code:addons/connector_typesense/tools/adapter.py:0
+msgid ""
+"Unable to index all records. (nbr errors: %(errors)s, total: %(total)s)\n"
+"%(result)s"
+msgstr ""
+"Не вдалося індексувати всі записи. (помилок: %(errors)s, всього: %(total)s)\n"
+"%(result)s"
+
+#. module: connector_typesense
+#. odoo-python
+#: code:addons/connector_typesense/tools/adapter.py:0
+msgid "Unauthorized - Your API key is wrong."
+msgstr "Неавторизовано — ваш API-ключ неправильний."

@@ -238,3 +238,9 @@ msgstr "Бекенд SE"
 #: model:ir.model,name:search_engine_image_thumbnail.model_se_thumbnail_size
 msgid "Thumbnail Size"
 msgstr "Розмір мініатюри"
+
+#. module: search_engine_image_thumbnail
+#. odoo-python
+#: code:addons/search_engine_image_thumbnail/models/se_indexable_record.py:0
+msgid "No thumbnail sizes defined for %(model)s.%(field)s"
+msgstr "Для %(model)s.%(field)s не визначено розміри мініатюр"

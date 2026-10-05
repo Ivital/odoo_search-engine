@@ -684,3 +684,69 @@ msgstr "Назва індексу має бути унікальною для к
 #: model:ir.model,name:connector_search_engine.model_se_binding_state_updater
 msgid "Update state of SE bindings"
 msgstr "Оновити стан прив’язувань SE"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_backend.py:0
+msgid "Adapter is missing for type %s"
+msgstr "Відсутній адаптер для типу %s"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_binding.py:0
+msgid "Binding model must be equal to the index model"
+msgstr "Модель прив’язки має відповідати моделі індексу"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_index.py:0
+msgid ""
+"Delete %(processing_count)d obsolete records of %(total_count)d for index "
+"'%(index_name)s'"
+msgstr ""
+"Видалення %(processing_count)d застарілих записів із %(total_count)d для "
+"індексу «%(index_name)s»"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_index.py:0
+msgid ""
+"Export %(processing_count)d records of %(total_count)d for index "
+"'%(index_name)s'"
+msgstr ""
+"Експорт %(processing_count)d записів із %(total_count)d для індексу "
+"«%(index_name)s»"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_index.py:0
+msgid "Prepare a batch recompute of index '%s'"
+msgstr "Підготувати пакетний перерахунок індексу «%s»"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_index.py:0
+msgid "Prepare a batch synchronization of index '%s'"
+msgstr "Підготувати пакетну синхронізацію індексу «%s»"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_binding.py:0
+msgid "Recompute %(name)s json and check if need update"
+msgstr "Перерахувати JSON %(name)s і перевірити, чи потрібне оновлення"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/models/se_index.py:0
+msgid ""
+"Recompute %(processing_count)d records of %(total_count)d for index "
+"'%(index_name)s'"
+msgstr ""
+"Перерахунок %(processing_count)d записів із %(total_count)d для індексу "
+"«%(index_name)s»"
+
+#. module: connector_search_engine
+#. odoo-python
+#: code:addons/connector_search_engine/tools/validator.py:0
+msgid "The key 'id' is missing in the data"
+msgstr "У даних відсутній ключ 'id'"

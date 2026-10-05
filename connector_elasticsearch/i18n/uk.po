@@ -144,3 +144,43 @@ msgid ""
 "Verify SSL certificates. Only set to False in development environments."
 msgstr ""
 "Перевіряти SSL-сертифікати. Встановлюйте False лише в середовищах розробки."
+
+#. module: connector_elasticsearch
+#. odoo-python
+#: code:addons/connector_elasticsearch/models/se_index.py:0
+msgid "An index definition is required for ElasticSearch"
+msgstr "Для ElasticSearch потрібне визначення індексу"
+
+#. module: connector_elasticsearch
+#. odoo-python
+#: code:addons/connector_elasticsearch/tools/adapter.py:0
+msgid "Unable to authenticate. Check credentials."
+msgstr "Не вдалося автентифікуватися. Перевірте облікові дані."
+
+#. module: connector_elasticsearch
+#. odoo-python
+#: code:addons/connector_elasticsearch/tools/adapter.py:0
+msgid "Unable to clear index %(index_name)s: %(result)"
+msgstr "Не вдалося очистити індекс %(index_name)s: %(result)"
+
+#. module: connector_elasticsearch
+#. odoo-python
+#: code:addons/connector_elasticsearch/tools/adapter.py:0
+msgid "Unable to connect :"
+msgstr "Не вдалося підключитися:"
+
+#. module: connector_elasticsearch
+#. odoo-python
+#: code:addons/connector_elasticsearch/tools/adapter.py:0
+msgid ""
+"Unable to index all records. (indexed: %(indexed)s, total: %(total)s)\n"
+"%(result)s"
+msgstr ""
+"Не вдалося індексувати всі записи. (проіндексовано: %(indexed)s, всього: %(total)s)\n"
+"%(result)s"
+
+#. module: connector_elasticsearch
+#. odoo-python
+#: code:addons/connector_elasticsearch/tools/adapter.py:0
+msgid "Unable to reach host."
+msgstr "Не вдалося з’єднатися з хостом."
