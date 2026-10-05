@@ -37,3 +37,13 @@ msgstr "Ключ API TS"
 #: model:ir.model.fields,field_description:connector_typesense.field_se_backend__backend_type
 msgid "Type"
 msgstr "Тип"
+
+#. module: connector_typesense
+#: model:ir.model.fields,field_description:connector_typesense.field_se_backend__ts_server_host
+msgid "Typesense host"
+msgstr "Хост Typesense"
+
+#. module: connector_typesense
+#: model:ir.model.fields,field_description:connector_typesense.field_se_backend__ts_server_port
+msgid "Typesense port"
+msgstr "Порт Typesense"

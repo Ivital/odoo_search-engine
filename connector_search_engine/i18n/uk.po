@@ -221,3 +221,225 @@ msgstr "Технічна назва"
 #: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__to_delete
 msgid "To Delete"
 msgstr "До видалення"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__binding_count
+msgid "Binding Count"
+msgstr "Кількість прив’язок"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_state_updater_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Clear index"
+msgstr "Очистити індекс"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Clear the index in the search engine"
+msgstr "Очистити індекс у пошуковій системі"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__count_pending
+msgid "Count Pending"
+msgstr "Кількість очікуваних"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__custom_tech_name
+msgid "Custom Tech Name"
+msgstr "Користувацька технічна назва"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__data_display
+msgid "Data Display"
+msgstr "Відображення даних"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__date_recomputed
+msgid "Date Recomputed"
+msgstr "Дата перерахована"
+
+#. module: connector_search_engine
+#: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__deleting
+msgid "Deleting"
+msgstr "Видалення"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Dropdown menu"
+msgstr "Випадне меню"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Export all bindings"
+msgstr "Експортувати всі прив'язки"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Export settings"
+msgstr "Налаштування експорту"
+
+#. module: connector_search_engine
+#: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__exporting
+msgid "Exporting"
+msgstr "Експорт"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_form
+msgid "Force Export"
+msgstr "Примусовий експорт"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_form
+msgid "Force Recompute"
+msgstr "Примусово перерахувати"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Force the export of all bindings"
+msgstr "Примусово експортувати всі прив'язки"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid ""
+"Force to recompute all bindings of the index and reexport all of them, even "
+"if there is no change"
+msgstr ""
+"Примусово перерахувати всі прив'язки індексу та повторно експортувати їх, "
+"навіть якщо змін немає"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_search
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_search_view
+msgid "Group By..."
+msgstr "Групувати за..."
+
+#. module: connector_search_engine
+#: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__invalid_data
+msgid "Invalid Data"
+msgstr "Некоректні дані"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__write_uid
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__write_uid
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding_state_updater__write_uid
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__write_uid
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__write_date
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__write_date
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding_state_updater__write_date
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__write_date
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_state_updater_form_view
+msgid "OK"
+msgstr "Гаразд"
+
+#. module: connector_search_engine
+#: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__recomputing
+msgid "Recomputing"
+msgstr "Перерахунок"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Reindex"
+msgstr "Переіндексувати"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Reindex records according to the current config"
+msgstr "Переіндексувати записи відповідно до поточної конфігурації"
+
+#. module: connector_search_engine
+#: model:ir.actions.act_window,name:connector_search_engine.se_index_act_window
+#: model:ir.model,name:connector_search_engine.model_se_index
+msgid "Se Index"
+msgstr "Індекс SE"
+
+#. module: connector_search_engine
+#: model:ir.actions.act_window,name:connector_search_engine.se_index_config_act_window
+msgid "Se Index Config"
+msgstr "Конфігурація індексу SE"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__backend_id
+msgid "Search Engine Backend"
+msgstr "Бекенд пошукової системи"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__serializer_type
+msgid "Serializer Type"
+msgstr "Тип серіалізатора"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__server_env_defaults
+msgid "Server Env Defaults"
+msgstr "Типові значення серверного середовища"
+
+#. module: connector_search_engine
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_backend_form_view
+msgid "Test Connection"
+msgstr "Перевірити з'єднання"
+
+#. module: connector_search_engine
+#: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__to_export
+msgid "To export"
+msgstr "До експорту"
+
+#. module: connector_search_engine
+#: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__to_recompute
+msgid "To recompute"
+msgstr "До перерахунку"
+
+#. module: connector_search_engine
+#: model:ir.actions.act_window,name:connector_search_engine.action_record_bind
+msgid "Update state"
+msgstr "Оновити стан"

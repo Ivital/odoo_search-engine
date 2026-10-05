@@ -52,3 +52,24 @@ msgstr "Пароль"
 #: model_terms:ir.ui.view,arch_db:connector_elasticsearch.se_backend_form_view
 msgid "User"
 msgstr "Користувач"
+
+#. module: connector_elasticsearch
+#: model:ir.model.fields.selection,name:connector_elasticsearch.selection__se_backend__auth_type__api_key
+#: model_terms:ir.ui.view,arch_db:connector_elasticsearch.se_backend_form_view
+msgid "API key"
+msgstr "Ключ API"
+
+#. module: connector_elasticsearch
+#: model_terms:ir.ui.view,arch_db:connector_elasticsearch.se_backend_form_view
+msgid "API key ID"
+msgstr "ID ключа API"
+
+#. module: connector_elasticsearch
+#: model_terms:ir.ui.view,arch_db:connector_elasticsearch.se_backend_form_view
+msgid "Max retries"
+msgstr "Максимум повторних спроб"
+
+#. module: connector_elasticsearch
+#: model_terms:ir.ui.view,arch_db:connector_elasticsearch.se_backend_form_view
+msgid "Timeout"
+msgstr "Тайм-аут"

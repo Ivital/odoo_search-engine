@@ -130,3 +130,48 @@ msgstr "Розмір X"
 #: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__size_y
 msgid "Y size"
 msgstr "Розмір Y"
+
+#. module: search_engine_image_thumbnail
+#: model_terms:ir.ui.view,arch_db:search_engine_image_thumbnail.se_image_field_thumbnail_size_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__field_id
+msgid "Images field"
+msgstr "Поле зображень"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_ir_attachment__se_thumbnail_ids
+#: model_terms:ir.ui.view,arch_db:search_engine_image_thumbnail.ir_attachment_form_view
+msgid "Indexed Thumbnails"
+msgstr "Проіндексовані мініатюри"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__write_uid
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__write_uid
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail_size__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__write_date
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__write_date
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail_size__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__original_image
+msgid "Original Image"
+msgstr "Оригінальне зображення"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__backend_id
+msgid "Search Engine Backend"
+msgstr "Бекенд пошукової системи"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__base_name
+msgid "The base name of the thumbnail image (without extension)"
+msgstr "Базова назва зображення мініатюри (без розширення)"
