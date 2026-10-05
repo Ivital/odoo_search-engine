@@ -1,0 +1,223 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__backend_id
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_search
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_search_view
+msgid "Backend"
+msgstr "Бекенд"
+
+#. module: connector_search_engine
+#: model:ir.ui.menu,name:connector_search_engine.se_backend_menu
+msgid "Backends"
+msgstr "Бекенди"
+
+#. module: connector_search_engine
+#: model:ir.actions.act_window,name:connector_search_engine.se_binding_action
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__binding_ids
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__binding_ids
+#: model:ir.ui.menu,name:connector_search_engine.se_binding_menu
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_form
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_search
+msgid "Binding"
+msgstr "Прив’язка"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__body
+msgid "Body"
+msgstr "Тіло"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__body_str
+msgid "Body Str"
+msgstr "Рядок тіла"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__color
+msgid "Color Index"
+msgstr "Індекс кольору"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__config_id
+msgid "Config"
+msgstr "Конфігурація"
+
+#. module: connector_search_engine
+#: model:ir.ui.menu,name:connector_search_engine.se_root_config
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_backend_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_kanban_view
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__count_all
+msgid "Count All"
+msgstr "Порахувати все"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__count_done
+msgid "Count Done"
+msgstr "Кількість виконаних"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__count_error
+msgid "Count Error"
+msgstr "Кількість помилок"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__create_uid
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__create_uid
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding_state_updater__create_uid
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__create_uid
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__create_date
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__create_date
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding_state_updater__create_date
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__create_date
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__data
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_form
+msgid "Data"
+msgstr "Дані"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__display_name
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__display_name
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding_state_updater__display_name
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__display_name
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: connector_search_engine
+#: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__done
+msgid "Done"
+msgstr "Готово"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__error
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_form
+msgid "Error"
+msgstr "Помилка"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__index_ids
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__index_id
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_backend_form_view
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_search
+msgid "Index"
+msgstr "Індекс"
+
+#. module: connector_search_engine
+#: model:ir.ui.menu,name:connector_search_engine.se_index_config_menu
+msgid "Index configurations"
+msgstr "Конфігурації індексів"
+
+#. module: connector_search_engine
+#: model:ir.ui.menu,name:connector_search_engine.se_index_menu
+msgid "Indexes"
+msgstr "Індекси"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__lang_id
+msgid "Lang"
+msgstr "Мова"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__model_id
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_search
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_index_search_view
+msgid "Model"
+msgstr "Модель"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__name
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index__name
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_index_config__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding_state_updater__state
+msgid "New state"
+msgstr "Новий стан"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__record_id
+msgid "Record"
+msgstr "Запис"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__res_id
+msgid "Record ID"
+msgstr "ID запису"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__res_model
+msgid "Res Model"
+msgstr "Модель ресурсу"
+
+#. module: connector_search_engine
+#: model:ir.actions.act_window,name:connector_search_engine.se_backend_act_window
+#: model:ir.module.category,name:connector_search_engine.module_category_search_engine
+#: model:ir.ui.menu,name:connector_search_engine.se_root_menu
+msgid "Search Engine"
+msgstr "Пошукова система"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_binding__state
+#: model_terms:ir.ui.view,arch_db:connector_search_engine.se_binding_view_search
+msgid "State"
+msgstr "Стан"
+
+#. module: connector_search_engine
+#: model:ir.model.fields,field_description:connector_search_engine.field_se_backend__tech_name
+msgid "Tech Name"
+msgstr "Технічна назва"
+
+#. module: connector_search_engine
+#: model:ir.model.fields.selection,name:connector_search_engine.selection__se_binding__state__to_delete
+msgid "To Delete"
+msgstr "До видалення"

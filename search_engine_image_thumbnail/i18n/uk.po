@@ -1,0 +1,132 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model,name:search_engine_image_thumbnail.model_ir_attachment
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__attachment_id
+msgid "Attachment"
+msgstr "Вкладення"
+
+#. module: search_engine_image_thumbnail
+#: model_terms:ir.ui.view,arch_db:search_engine_image_thumbnail.se_image_field_thumbnail_size_search_view
+msgid "Backend"
+msgstr "Бекенд"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__create_uid
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__create_uid
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail_size__create_uid
+#: model_terms:ir.ui.view,arch_db:search_engine_image_thumbnail.se_thumbnail_search_view
+msgid "Created by"
+msgstr "Створив"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__create_date
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__create_date
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail_size__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__display_name
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__display_name
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail_size__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__image
+msgid "Image"
+msgstr "Зображення"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.ui.menu,name:search_engine_image_thumbnail.se_image_field_thumbnail_size_menu
+msgid "Index Thumbnail Sizes"
+msgstr "Індексувати розміри мініатюр"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.actions.act_window,name:search_engine_image_thumbnail.se_thumbnail_act_window
+#: model:ir.model,name:search_engine_image_thumbnail.model_se_thumbnail
+#: model:ir.ui.menu,name:search_engine_image_thumbnail.se_thumbnail_menu
+msgid "Indexed Image Thumbnail"
+msgstr "Індексована мініатюра зображення"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail_size__key
+msgid "Key"
+msgstr "Ключ"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__mimetype
+msgid "Mimetype"
+msgstr "MIME-тип"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__model_id
+#: model_terms:ir.ui.view,arch_db:search_engine_image_thumbnail.se_image_field_thumbnail_size_search_view
+msgid "Model"
+msgstr "Модель"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__model
+msgid "Model name"
+msgstr "Назва моделі"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__name
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail_size__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_image_field_thumbnail_size__size_ids
+msgid "Size"
+msgstr "Розмір"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail_size__size_x
+msgid "Size X"
+msgstr "Розмір X"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail_size__size_y
+msgid "Size Y"
+msgstr "Розмір Y"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.actions.act_window,name:search_engine_image_thumbnail.se_image_field_thumbnail_size_act_window
+#: model:ir.actions.act_window,name:search_engine_image_thumbnail.se_thumbnail_size_act_window
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_backend__image_field_thumbnail_size_ids
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_index__image_field_thumbnail_size_ids
+#: model:ir.ui.menu,name:search_engine_image_thumbnail.se_thumbnail_size_menu
+#: model_terms:ir.ui.view,arch_db:search_engine_image_thumbnail.se_backend_form_view
+#: model_terms:ir.ui.view,arch_db:search_engine_image_thumbnail.se_index_form_view
+msgid "Thumbnail Sizes"
+msgstr "Розміри мініатюр"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.ui.menu,name:search_engine_image_thumbnail.se_thumbnails_menu
+msgid "Thumbnails"
+msgstr "Мініатюри"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__size_x
+msgid "X size"
+msgstr "Розмір X"
+
+#. module: search_engine_image_thumbnail
+#: model:ir.model.fields,field_description:search_engine_image_thumbnail.field_se_thumbnail__size_y
+msgid "Y size"
+msgstr "Розмір Y"
